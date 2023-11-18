@@ -1,0 +1,31 @@
+/* RoomOptions.css */
+.room-options {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .room-options ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .room-options li {
+    display: inline-block;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+
+  .room-type {
+    padding: 4px 8px;
+    background-color: lightgray;
+    border-radius: 2px;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .room-options li {
+      display: block;
+      margin: 10px 0;
+    }
+  }
+  
